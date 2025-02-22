@@ -7,7 +7,7 @@ Maintains price stability, minimizes volatility and protects against manipulatio
 Integrations: Uniswap v3/v4, PancakeSwap, Chainlink, Ethereum/BSC/Solana.
 
 ## To get access to GUI version DM me on Telegram
-- [@ZeronodeX](https://t.me/ZeronodeX)
+### **[@ZeronodeX](https://t.me/ZeronodeX)**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
