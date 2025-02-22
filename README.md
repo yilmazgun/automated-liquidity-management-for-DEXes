@@ -1,6 +1,7 @@
 # Liquidity Management Bot for DeFi Tokens | Uniswap, PancakeSwap, DEX
 Liquidity Management Bot is a powerful tool for automating token liquidity management on decentralized exchanges (DEX) such as Uniswap, PancakeSwap and others. 
 The bot maintains price stability, minimizes volatility and protects against manipulation (MEV attacks, sandwich bots).
+
 **Automated bot for token liquidity management on DEX.**
 Maintains price stability, minimizes volatility and protects against manipulation.
 Integrations: Uniswap v3/v4, PancakeSwap, Chainlink, Ethereum/BSC/Solana.
@@ -24,25 +25,25 @@ Integrations: Uniswap v3/v4, PancakeSwap, Chainlink, Ethereum/BSC/Solana.
 ## ⚙️ Parameter setting
 
 'general:
-  token: "YOURTOKEN"
-  base_currency: "USDT"
-  blockchain: "ethereum"
-  dex: "uniswap_v3"
+    token: "YOURTOKEN"
+    base_currency: "USDT"
+    blockchain: "ethereum"
+    dex: "uniswap_v3"
 
 liquidity:
-  min_liquidity: 10000  # USD
-  max_liquidity: 500000 # USD
-  rebalance_threshold: 5%  # Unbalance for rebalancing
+    min_liquidity: 10000  # USD
+    max_liquidity: 500000 # USD
+    rebalance_threshold: 5%  # Unbalance for rebalancing
 
 price_control:
-  target_range: [0.97, 1.03]
-  volatility_threshold: 3%  # Max. deviation in 1 hour
-  strategy: "twap"  # Or "vwap."
+    target_range: [0.97, 1.03]
+    volatility_threshold: 3%  # Max. deviation in 1 hour
+    strategy: "twap"  # Or "vwap."
 
 security:
-  max_order_size: 5%  # From liquidity
-  new_address_filter: 24h  # Blocking of new wallets
-  multisig: true  # Require 2/3 of the signatures'
+    max_order_size: 5%  # From liquidity
+    new_address_filter: 24h  # Blocking of new wallets
+    multisig: true  # Require 2/3 of the signatures'
 
 ## 🛡️ Security
 
