@@ -72,3 +72,21 @@ Save configuration files and cid-phrases on a regular basis.
 
 4. Auditing
 Code and smart contracts should be audited by independent auditors before use in mainnet.
+
+## 🌐 Example scenarios
+Scenario 1: Token launch
+# config.yaml
+price_control:
+  target_range: [0.90, 1.10]
+  strategy: "twap"
+  twap_interval: 30m  #  Stretching orders for 30 minutes
+
+Scenario 2: Panic protection
+security:
+
+  max_order_size: 2%
+
+  new_address_filter: 48h
+
+  alert_threshold: 10% # Notification when liquidity drops by 10%
+
