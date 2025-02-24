@@ -88,16 +88,16 @@ Save configuration files and cid-phrases on a regular basis.
 Code and smart contracts should be audited by independent auditors before use in mainnet.
 
 ## Why Choose Liquidity Manager Bot?
-1. Optimized Yields:
+**1. Optimized Yields:**
 Automatic liquidity rebalancing maximizes yields by precisely controlling prices and minimizing impermanent loss.
 
-2. Enhanced Security:
+**2. Enhanced Security:**
 Robust protection against MEV attacks ensures that your funds remain secure in a highly competitive DeFi landscape.
 
-3. Scalability and Flexibility:
+**3. Scalability and Flexibility:**
 With support for multiple blockchains, our bot is suitable for managing liquidity across major platforms and niche projects alike.
 
-4. Transparency and Control:
+**4. Transparency and Control:**
 A real-time dashboard offers full visibility into operations, crucial for maintaining trust in the DeFi market.
 
 ## 🌐 Example scenarios
