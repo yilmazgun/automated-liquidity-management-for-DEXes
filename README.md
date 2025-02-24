@@ -1,5 +1,5 @@
 # Liquidity Management Bot for DeFi Tokens | Uniswap, PancakeSwap, DEX
-Liquidity Management Bot is a powerful tool for automating token liquidity management on decentralized exchanges (DEX) such as Uniswap, PancakeSwap and others. 
+Liquidity Management Bot is a powerful multi-chain solution for automatically balancing liquidity pools on platforms such as Uniswap, PancakeSwap, and other decentralized exchanges (DEXes). Liquidity Management Bot maintain token prices within a specified range (±1–10%), safeguards against MEV attacks (including sandwich attacks and frontrunning), and utilizes adaptive trading strategies (TWAP, VWAP, and threshold triggers) to optimize yields. 
 The bot maintains price stability, minimizes volatility and protects against manipulation (MEV attacks, sandwich bots).
 
 **Automated bot for token liquidity management on DEX.**
@@ -13,12 +13,23 @@ Integrations: Uniswap v3/v4, PancakeSwap, Chainlink, Ethereum/BSC/Solana.
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10+-blue.svg)](https://www.python.org/)
 
 ## 📌 Features
-- **Autobalization of pools** on Uniswap, PancakeSwap and other DEX.
-- **Price control** within a specified range (±1-10%).
-- **Protection from MEV attacks** (sandwich bots, frontrunning).
-- **Adaptive strategies**: TWAP, VWAP, threshold triggers.
-- **Multichain**: Ethereum, BSC, Solana, Layer 2.
-- **Dashboard** for real-time monitoring.
+**Automated Pool Balancing** 
+- the bot performs auto-balancing of liquidity across pools on Uniswap, PancakeSwap, and other DEXes, ensuring stable and efficient trading.
+
+**Price Control within a Specified Range** 
+- A built-in price control mechanism maintains the token’s value within a predefined range (±1% to ±10%), minimizing volatility.
+
+**Protection Against MEV Attacks** (sandwich bots, frontrunning).
+- Advanced algorithms protect your funds against MEV attacks such as sandwich attacks and frontrunning, reducing the risk of market manipulation.
+
+**Adaptive Strategies**: TWAP, VWAP, threshold triggers.
+- Implementing strategies like TWAP (Time-Weighted Average Price), VWAP (Volume-Weighted Average Price), and threshold triggers, the bot dynamically adjusts to changing market conditions.
+
+**Multi-Chain Support**:
+- The solution supports Ethereum, Binance Smart Chain (BSC), Solana, and Layer 2 solutions, offering flexibility and scalability for users worldwide.
+
+**Real-Time Monitoring Dashboard:** for real-time monitoring.
+- An integrated dashboard provides real-time monitoring of pool status, liquidity metrics, and trading activity, simplifying decision-making.
 
 ### Requirements
 - Python 3.10+
@@ -75,6 +86,19 @@ Save configuration files and cid-phrases on a regular basis.
 
 4. Auditing
 Code and smart contracts should be audited by independent auditors before use in mainnet.
+
+## Why Choose Liquidity Manager Bot?
+1. Optimized Yields:
+Automatic liquidity rebalancing maximizes yields by precisely controlling prices and minimizing impermanent loss.
+
+2. Enhanced Security:
+Robust protection against MEV attacks ensures that your funds remain secure in a highly competitive DeFi landscape.
+
+3. Scalability and Flexibility:
+With support for multiple blockchains, our bot is suitable for managing liquidity across major platforms and niche projects alike.
+
+4. Transparency and Control:
+A real-time dashboard offers full visibility into operations, crucial for maintaining trust in the DeFi market.
 
 ## 🌐 Example scenarios
 - Scenario 1: Token launch
